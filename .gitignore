@@ -1,0 +1,23 @@
+# Python cache and compiled
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+
+# Logs
+logs/
+*.log
+
+# Local static images
+app/static/images/people/
+app/static/images/teams/
+app/static/images/venues/
+
+# Env vars
+.env
+
+# Temp or dev scripts
+test_*.py
+db_test_insert.py
+shots_game_*.csv
